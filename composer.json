@@ -1,0 +1,22 @@
+{
+  "name": "imagina/icms",
+  "description": "Assets of Vue-CMS",
+  "autoload": {
+    "psr-4": {
+      "Imagina\\Icms\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "msolanogithub",
+      "email": "msolano@imaginacolombia.com"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Imagina\\Icms\\Providers\\IcmsServiceProvider"
+      ]
+    }
+  }
+}
