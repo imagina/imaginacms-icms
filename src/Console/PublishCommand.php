@@ -15,7 +15,7 @@ class PublishCommand extends Command
     $link = public_path('iadmin');
 
     if (file_exists($link)) {
-      $this->warn("Removing old symlink: $link");
+      $this->warn("Removing old symlinks: $link");
       unlink($link);
     }
 
